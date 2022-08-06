@@ -1,0 +1,41 @@
+Module 3: Navigation/Routing
+
+github repo : https://github.com/webmastervishal/edureka_react_aug_22
+Postman link: https://www.postman.com/downloads/
+Backend Login API : https://webmaster-fake-api.herokuapp.com/auth/Login
+Backend API github : https://github.com/webmastervishal/fake-api/tree/main
+
+CSS in React:
+=============================================
+
+1. Inline Styling using style attribute
+2. Internal : style object
+3. External : import external css style sheet
+
+# - ids (css)
+. - classes (css)
+
+html/css                React
+=============================================
+class              =>    className
+background-color   =>    backgroundColor (camelCase)
+
+
+Install packages: 
+=============================================
+
+npm i react-router-dom@5
+npm i js-cookie
+
+
+Javascript concepts better to learn: 
+=============================================
+
+1. var, let & const keyword
+2. function vs arrow function
+3. async await 
+4. fetch
+5. hoisting
+6. type conversion
+7. Array methods (map, filter, reduce, forEach)
+
