@@ -1,0 +1,19 @@
+#wrapper {
+  border: 1px solid #d3d3d3;
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+}
+
+#currency-value {
+  width: 100%;
+  height: 20px;
+}
+
+#currency-item {
+  display: flex;
+  justify-content: space-around;
+  background-color: #eaeaea;
+  margin: 10px;
+  border-radius: 5px;
+}

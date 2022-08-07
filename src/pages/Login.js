@@ -11,6 +11,11 @@ class Login extends React.Component {
       password: "",
       error: "",
     };
+
+    const isAuthenticated = !!Cookies.get("token");
+    if (isAuthenticated) {
+      props.history.push("/dashboard");
+    }
   }
 
   handleEmail = (e) => {

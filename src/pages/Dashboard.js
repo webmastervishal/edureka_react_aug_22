@@ -1,4 +1,5 @@
 import React from "react";
+import Container from "../components/CurrencyConversion/Container";
 import Layout from "./../layout";
 
 class Dashboard extends React.Component {
@@ -9,7 +10,7 @@ class Dashboard extends React.Component {
   render() {
     return (
       <Layout>
-        <h1>Dashboard page</h1>
+        <Container />
       </Layout>
     );
   }

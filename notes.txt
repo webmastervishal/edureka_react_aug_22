@@ -39,3 +39,19 @@ Javascript concepts better to learn:
 6. type conversion
 7. Array methods (map, filter, reduce, forEach)
 
+Create json-server fake api
+======================
+https://www.npmjs.com/package/json-server
+
+
+Module 4 : Redux
+
+install redux and reacct-redux package
+
+npm i redux react-redux
+
+https://redux.js.org/introduction/getting-started
+https://react-redux.js.org/introduction/getting-started
+
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+
