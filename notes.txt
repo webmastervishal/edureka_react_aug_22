@@ -55,3 +55,13 @@ https://react-redux.js.org/introduction/getting-started
 
 https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 
+
+Module 5: Redux Saga
+
+npm i redux-saga
+Install react developer tools
+
+/*
+    In live session we were having an infinite loop error on line 29 in saga.js
+    There was minor change that I had to do, and working code is there on line no 30 in saga.js
+*/

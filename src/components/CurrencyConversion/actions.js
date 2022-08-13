@@ -13,6 +13,13 @@ const actions = {
       payload,
     };
   },
+  FETCH_CURRENCIES: "FETCH_CURRENCIES",
+  fetchCurrencies: (payload) => {
+    return {
+      type: actions.FETCH_CURRENCIES,
+      payload,
+    };
+  },
 };
 
 export default actions;
