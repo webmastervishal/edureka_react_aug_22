@@ -4,12 +4,15 @@ import reportWebVitals from "./reportWebVitals";
 import AppRouter from "./routes/AppRouter";
 import { Provider } from "react-redux";
 import { store } from "./store";
+import UserContext from "./context/UserContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <AppRouter />
+      <UserContext.Provider value={{ name: "vishal", age: 30 }}>
+        <AppRouter />
+      </UserContext.Provider>
     </Provider>
   </React.StrictMode>
 );
