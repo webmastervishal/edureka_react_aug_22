@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component snapshot matching 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid #c7c7c7",
+      "margin": "auto",
+      "padding": "20px",
+      "width": "500px",
+    }
+  }
+>
+  <p>
+    
+  </p>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="input-style"
+      name="email"
+      onChange={[Function]}
+      placeholder="Enter your email address"
+      type="text"
+      value=""
+    />
+    <input
+      className="input-style"
+      name="password"
+      onChange={[Function]}
+      placeholder="Enter your password"
+      type="text"
+      value=""
+    />
+    <button
+      id="login-button"
+      style={
+        Object {
+          "backgroundColor": "tomato",
+        }
+      }
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;

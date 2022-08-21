@@ -65,3 +65,14 @@ Install react developer tools
     In live session we were having an infinite loop error on line 29 in saga.js
     There was minor change that I had to do, and working code is there on line no 30 in saga.js
 */
+
+
+Module 8 : Testing
+
+https://jestjs.io/   - Test runner
+https://enzymejs.github.io/enzyme/ 
+
+Install git
+
+https://git-scm.com/downloads
+

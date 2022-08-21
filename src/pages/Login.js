@@ -90,7 +90,7 @@ class Login extends React.Component {
             value={this.state.password}
           />
 
-          <button style={{ backgroundColor: "red" }} id="login-button">
+          <button style={{ backgroundColor: "tomato" }} id="login-button">
             Login
           </button>
 
