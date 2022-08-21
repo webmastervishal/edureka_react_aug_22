@@ -67,7 +67,7 @@ Install react developer tools
 */
 
 
-Module 8 : Testing
+Module 8 : Testing & Deployment
 
 https://jestjs.io/   - Test runner
 https://enzymejs.github.io/enzyme/ 
@@ -75,4 +75,27 @@ https://enzymejs.github.io/enzyme/
 Install git
 
 https://git-scm.com/downloads
+
+Netlify: https://www.netlify.com/
+Heroku: https://dashboard.heroku.com/
+
+Nginx : http://nginx.org/en/download.html
+Docker: https://docs.docker.com/get-docker/
+
+linux : var/www/html
+
+
+NGINX Deployment: 
+========================================================
+i) Edit nginx.conf file and add below server details
+ server {
+        listen 8001;
+        server_name localhost;
+
+        location / {
+           root /var/www/edureka-react-app;
+           index index.html index.htm;
+           try_files $uri $uri/ /index.html;
+        }
+    }
 
